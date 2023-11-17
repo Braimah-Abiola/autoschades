@@ -5,21 +5,18 @@ import { ArrowUpRight } from "lucide-react";
 
 const LandingAbout = () => {
   return (
-    <div>
+    <div id="start">
       <LandingWrapper className="flex flex-col items-start justify-center text-start py-40">
         <h2 className="text-black text-4xl md:text-5xl font-semibold">
           Welkom bij ons auto <br /> reparatiecentrum.
         </h2>
 
         <div className="w-full flex flex-col md:flex-row mt-12 gap-20 items-center">
-          <Image
-            width={555}
-            height={555}
-            className="rounded-2xl"
-            src="/images/about.png"
-            alt="About image"
-          />
           <div>
+            <h4 className="mb-4 md:mb-8 text-2xl text-black font-medium">
+              WELKOM BIJ EEN NIEUW NIVEAU VAN <br className="hidden md:block" />{" "}
+              AUTO REPARATIE-UITMUNTENDHEID.
+            </h4>
             <p className="text-lg text-black/60 w-full md:w-[75%]">
               Van routinematig onderhoud tot complexe reparaties, wij beschikken
               over de expertise en geavanceerde apparatuur om u veilig en snel
@@ -27,16 +24,18 @@ const LandingAbout = () => {
               professionals die oprecht geven om uw voertuig en uw tevredenheid.
             </p>
 
-            <h4 className="mt-4 md:mt-8 text-2xl text-black font-medium">
-              WELKOM BIJ EEN NIEUW NIVEAU VAN <br className="hidden md:block" />{" "}
-              AUTO REPARATIE-UITMUNTENDHEID.
-            </h4>
-
             <Button size="xl" className=" uppercase mt-8 md:mt-12">
               Leer meer over ons.
               <ArrowUpRight className="ml-2" />
             </Button>
           </div>
+          <Image
+            width={555}
+            height={555}
+            className="rounded-2xl"
+            src="/images/about.png"
+            alt="About image"
+          />
         </div>
       </LandingWrapper>
     </div>

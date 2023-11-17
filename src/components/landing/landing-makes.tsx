@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const LandingMakes = () => {
   return (
-    <div className="w-full bg-primary py-20 md:py-40">
+    <div className="w-full bg-primary py-16 md:py-24">
       <LandingWrapper className="flex flex-col items-start justify-center text-start">
         <div className="flex flex-col md:flex-row justify-between w-full">
           <h3 className="text-white text-4xl font-semibold">
@@ -17,7 +17,7 @@ const LandingMakes = () => {
         </div>
       </LandingWrapper>
 
-      <Marquee className="mt-20 md:mt-40">
+      <Marquee className="mt-20">
         <Image
           className="ml-20"
           height={80}

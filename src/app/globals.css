@@ -48,3 +48,16 @@
     --ring: 20.5 90.2% 48.2%;
   }
 }
+
+.arrow-icon-down {
+  animation: arrow-bounce-up 1s infinite alternate;
+}
+
+@keyframes arrow-bounce-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}

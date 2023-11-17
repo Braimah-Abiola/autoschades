@@ -10,6 +10,7 @@ import {
   Twitter,
 } from "lucide-react";
 import { Separator } from "../ui/separator";
+import Link from "next/link";
 
 const LandingFooter = () => {
   return (
@@ -20,7 +21,7 @@ const LandingFooter = () => {
             <Image width={120} height={70} src="/images/logo.png" alt="Logo" />
           </div>
           <div className="hidden md:block">
-            <Image width={210} height={100} src="/images/logo.png" alt="Logo" />
+            <Image width={160} height={100} src="/images/logo.png" alt="Logo" />{" "}
           </div>
 
           <div className="flex flex-col text-white">
@@ -66,17 +67,33 @@ const LandingFooter = () => {
               Volg ons.
             </h4>
             <div className="flex flex-row space-x-4 mt-6 items-start">
-              <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-all">
-                <Linkedin fill="white" />
-              </div>
+              <Link href="https://asdf.com">
+                <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-all">
+                  <Image
+                    width={28}
+                    height={28}
+                    src="/icons/ln.svg"
+                    alt="LinkedIn"
+                  />
+                </div>
+              </Link>
 
-              <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-all">
-                <Facebook fill="white" />
-              </div>
+              <Link href="https://asdf.com">
+                <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-all">
+                  <Image
+                    width={34}
+                    height={34}
+                    src="/icons/fb.svg"
+                    alt="Facebook"
+                  />
+                </div>
+              </Link>
 
-              <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-all">
-                <Twitter fill="white" />
-              </div>
+              <Link href="https://asdf.com">
+                <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-all">
+                  <Image width={28} height={28} src="/icons/x.svg" alt="X" />
+                </div>
+              </Link>
             </div>
 
             <p className="mt-6">

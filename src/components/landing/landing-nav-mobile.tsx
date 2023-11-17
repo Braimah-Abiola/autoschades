@@ -1,6 +1,6 @@
+import { Menu } from "lucide-react";
 import Image from "next/image";
 import LandingWrapper from "../wrapper/landing-wrapper";
-import { Menu, Phone } from "lucide-react";
 
 const LandingNavMobile = () => {
   return (

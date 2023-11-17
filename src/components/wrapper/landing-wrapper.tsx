@@ -11,9 +11,9 @@ const LandingWrapper = ({
   return (
     <div
       className={cn(
-        "mx-auto w-full max-w-screen-[1920px] px-4 md:px-60",
+        "mx-auto w-full max-w-[1920px] px-4 md:px-20 xl:px-20 2xl:px-40",
         className
-    )}
+      )}
     >
       {children}
     </div>

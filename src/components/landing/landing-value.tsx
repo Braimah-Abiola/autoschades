@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 import LandingWrapper from "../wrapper/landing-wrapper";
+import { Wrench } from "lucide-react";
 
 const LandingValue = () => {
   return (
@@ -15,61 +16,62 @@ const LandingValue = () => {
           </Button>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-10 w-full mt-20">
-          <div className="flex flex-col">
-            <div className="w-full md:w-[400px] h-[555px] relative">
+        <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-10 w-full mt-20">
+          <div className="w-full py-20 md:py-20 flex items-center justify-center bg-[#f0f0f0] shadow-sm rounded-xl px-4">
+            <div className="flex flex-col items-center text-center">
               <Image
-                className="rounded-2xl object-cover"
-                fill
-                src="/images/value_one.png"
-                alt="Services"
+                width={75}
+                height={75}
+                src="/icons/professional.svg"
+                alt="Facebook"
               />
+              <h3 className="text-2xl text-black font-medium mt-8">
+                Topklasse <span className="text-primary">Professionals</span>
+              </h3>
+              <p className="text-black/60 text-lg w-full">
+                Ervaren professionals van topklasse, toonaangevend in
+                deskundigheid en hoogwaardige servicekwaliteit voor een
+                ongeëvenaarde auto-ervaring.
+              </p>
             </div>
-            <h3 className="text-3xl text-black font-medium mt-8">
-              Topklasse <span className="text-primary">Professionals</span>
-            </h3>
-            <p className="text-black/60 text-lg">
-              Met jarenlange ervaring en een passie voor alles op het gebied van
-              auto&apos;s, zijn onze bekwame technici de drijvende kracht achter
-              onze reputatie voor uitzonderlijke service.
-            </p>
           </div>
 
-          <div className="flex flex-col">
-            <div className="w-full md:w-[400px] h-[555px] relative">
+          <div className="w-full py-20 md:py-20 flex items-center justify-center bg-[#f0f0f0] shadow-sm rounded-xl px-4">
+            <div className="flex flex-col items-center text-center">
               <Image
-                className="rounded-2xl object-cover"
-                fill
-                src="/images/value_two.png"
-                alt="Services"
+                width={75}
+                height={75}
+                src="/icons/perform.svg"
+                alt="Facebook"
               />
+              <h3 className="text-2xl text-black font-medium mt-8">
+                Toewijding om te <span className="text-primary">presteren</span>
+                .
+              </h3>
+              <p className="text-black/60 text-lg w-full">
+                Toewijding aan uitzonderlijke prestaties, altijd strevend naar
+                perfectie en klanttevredenheid met betrouwbare dienstverlening.
+              </p>
             </div>
-            <h3 className="text-3xl text-black font-medium mt-8">
-              Toewijding om te <span className="text-primary">presteren</span>.
-            </h3>
-            <p className="text-black/60 text-lg w-[85%]">
-              Bij ons Auto Reparatiebedrijf staan uw veiligheid en de prestaties
-              van uw auto voorop. Wij handhaven onze toewijding om u een veilige
-              en betrouwbare rijervaring te bieden.
-            </p>
           </div>
 
-          <div className="flex flex-col">
-            <div className="w-full md:w-[400px] h-[555px] relative">
+          <div className="w-full py-20 md:py-20 flex items-center justify-center bg-[#f0f0f0] shadow-sm rounded-xl px-4">
+            <div className="flex flex-col items-center text-center">
               <Image
-                className="rounded-2xl object-cover"
-                fill
-                src="/images/value_three.png"
-                alt="Services"
+                width={75}
+                height={75}
+                src="/icons/tool.svg"
+                alt="Facebook"
               />
+              <h3 className="text-2xl text-black font-medium mt-8">
+                Beste <span className="text-primary">gereedschappen</span>.
+              </h3>
+              <p className="text-black/60 text-lg w-full">
+                Gebruik van geavanceerde en hoogwaardige gereedschappen,
+                garanderend dat uw voertuig de best mogelijke zorg en service
+                ontvangt.
+              </p>
             </div>
-            <h3 className="text-3xl text-black font-medium mt-8">
-              Beste <span className="text-primary">gereedschappen</span>.
-            </h3>
-            <p className="text-black/60 text-lg">
-              Wij gebruiken de beste en modernste gereedschappen om ervoor te
-              zorgen dat uw voertuig de best mogelijke zorg krijgt.
-            </p>
           </div>
         </div>
       </LandingWrapper>
