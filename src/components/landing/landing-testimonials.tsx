@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const LandingTestimonials = () => {
   return (
-    <div className="w-full py-40">
+    <div className="w-full py-16 md:py-40">
       <LandingWrapper className="flex flex-col items-start justify-center text-start">
-        <div className="flex flex-col w-full items-center justify-center text-start md:text-center mb-20">
+        <div className="flex flex-col w-full items-center justify-center text-start md:text-center mb-10 md:mb-20">
           <h2 className="text-black text-4xl md:text-5xl font-semibold">
             Wat onze klanten zeggen
           </h2>
@@ -16,7 +16,7 @@ const LandingTestimonials = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-8 xl:gap-8 2xl:gap-12 mt-10 xl:mt-8 2xl:mt-10">
+        <div className="flex flex-col md:flex-row gap-5 xl:gap-8 2xl:gap-12 mt-0 xl:mt-8 2xl:mt-10">
           <div className="bg-[#F6F6F6] p-8 rounded-2xl w-full">
             <Quote fill="black" />
             <p className="mt-4 text-lg">
@@ -66,7 +66,7 @@ const LandingTestimonials = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-8 xl:gap-8 2xl:gap-12 mt-10 xl:mt-8 2xl:mt-10">
+        <div className="flex flex-col md:flex-row gap-5 xl:gap-8 2xl:gap-12 mt-5 xl:mt-8 2xl:mt-10">
           <div className="bg-[#F6F6F6] p-8 rounded-2xl w-full">
             <Quote fill="black" />
             <p className="mt-4 text-lg">

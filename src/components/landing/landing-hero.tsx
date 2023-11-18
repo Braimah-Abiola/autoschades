@@ -11,16 +11,16 @@ const LandingHero = () => {
     <div className="">
       <LandingWrapper className="flex flex-col items-center justify-center text-start">
         <div className="z-10 w-full items-start justify-center flex flex-col -mt-10 md:-mt-10 h-screen">
-          <p className="mt-2 md:mt-5 w-full md:w-[60%] text-xl md:text-xl text-white text-start">
+          <p className="w-full md:w-[60%] text-lg md:text-xl text-white/70 text-start">
             EXPERT AUTO REPARATIES VOOR ELKE BEHOEFTE.
           </p>
-          <h1 className="md:max-w-5xl text-5xl font-semibold md:text-6xl lg:text-[72px] lg:leading-[1.2] text-white mt-6 md:mt-6">
+          <h1 className="md:max-w-5xl text-5xl font-semibold md:text-6xl lg:text-[72px] lg:leading-[1.2] text-white mt-2 md:mt-2">
             Rijd met <span className="text-primary">vertrouwen</span>.
           </h1>
           <h1 className="md:max-w-5xl text-5xl font-semibold md:text-6xl lg:text-[72px] lg:leading-[1.2] text-white md:-mt-0">
             Kies voor <span className="text-primary">ons</span>.
           </h1>
-          <p className="mt-6 md:mt-5 w-full lg:w-[60%] xl:w-[50%] 2xl:w-[40%] text-lg md:text-lg text-white text-start">
+          <p className="mt-4 md:mt-5 w-full lg:w-[60%] xl:w-[50%] 2xl:w-[40%] text-lg md:text-lg text-white text-start">
             Vertrouw op onze bekwame technici om ervoor te zorgen dat uw
             voertuig soepel en veilig blijft rijden met eersteklas auto
             reparatiediensten.

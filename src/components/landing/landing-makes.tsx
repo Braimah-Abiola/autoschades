@@ -5,14 +5,15 @@ import Image from "next/image";
 const LandingMakes = () => {
   return (
     <div className="w-full bg-primary py-16 md:py-24">
-      <LandingWrapper className="flex flex-col items-start justify-center text-start">
+      <LandingWrapper className="flex flex-col items-center md:items-start justify-center text-center md:text-start">
         <div className="flex flex-col md:flex-row justify-between w-full">
-          <h3 className="text-white text-4xl font-semibold">
+          <h3 className="text-white text-3xl md:text-4xl font-semibold">
             Merken die wij onderhouden.
           </h3>
 
-          <p className="text-lg text-white mt-8 md:mt-0">
-            Wij onderhouden uw voertuig.
+          <p className="text-base md:text-lg text-white/80 mt-4 md:mt-0 w-full md:w-[40%]">
+            Wij zorgen voor uw voertuig met deskundig onderhoud en geavanceerde
+            apparatuur voor optimale prestaties en betrouwbare service.
           </p>
         </div>
       </LandingWrapper>
