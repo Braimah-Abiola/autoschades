@@ -6,7 +6,7 @@ const LandingTestimonials = () => {
   return (
     <div className="w-full py-16 md:py-40">
       <LandingWrapper className="flex flex-col items-start justify-center text-start">
-        <div className="flex flex-col w-full items-center justify-center text-start md:text-center mb-10 md:mb-20">
+        <div className="flex flex-col w-full items-center justify-center text-start md:text-center mb-10 md:mb-4">
           <h2 className="text-black text-4xl md:text-5xl font-semibold">
             Wat onze klanten zeggen
           </h2>

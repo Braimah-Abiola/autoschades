@@ -23,12 +23,20 @@ const LandingValue = () => {
           </Button>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 w-full mt-12 md:mt-20">
-          <div className="w-full py-20 md:py-20 flex items-center justify-center bg-[#f0f0f0] shadow-sm rounded-xl px-4">
+        <div className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 w-full mt-12 md:mt-12">
+          <div className="w-full py-12 md:py-16 flex items-center justify-center bg-[#f0f0f0] shadow-sm rounded-xl px-4">
             <div className="flex flex-col items-center text-center">
               <Image
+                className="lg:hidden"
                 width={90}
                 height={90}
+                src="/icons/professional.svg"
+                alt="Facebook"
+              />
+              <Image
+                className="hidden lg:block"
+                width={110}
+                height={110}
                 src="/icons/professional.svg"
                 alt="Facebook"
               />
@@ -43,11 +51,19 @@ const LandingValue = () => {
             </div>
           </div>
 
-          <div className="w-full py-20 md:py-20 flex items-center justify-center bg-[#f0f0f0] shadow-sm rounded-xl px-4">
+          <div className="w-full py-12 md:py-16 flex items-center justify-center bg-[#f0f0f0] shadow-sm rounded-xl px-4">
             <div className="flex flex-col items-center text-center">
               <Image
+                className="lg:hidden"
                 width={90}
                 height={90}
+                src="/icons/perform.svg"
+                alt="Facebook"
+              />
+              <Image
+                className="hidden lg:block md:-mt-5"
+                width={110}
+                height={110}
                 src="/icons/perform.svg"
                 alt="Facebook"
               />
@@ -62,7 +78,7 @@ const LandingValue = () => {
             </div>
           </div>
 
-          <div className="w-full py-20 md:py-20 flex items-center justify-center bg-[#f0f0f0] shadow-sm rounded-xl px-4">
+          <div className="w-full py-12 md:py-16 flex items-center justify-center bg-[#f0f0f0] shadow-sm rounded-xl px-4">
             <div className="flex flex-col items-center text-center">
               <Image
                 width={90}
